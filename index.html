@@ -17,7 +17,7 @@
         rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -27,8 +27,397 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    Hamarosan... :)
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="font-secondary text-white mb-n2">Ale <span class="text-primary">&</span> Tomi</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Főoldal</a>
+                <a href="#story" class="nav-item nav-link">Történetünk</a>
+                <a href="#places" class="nav-item nav-link">Helyszínek</a>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                <h1 class="font-secondary text-white mb-n2">Ale <span class="text-primary">&</span> Tomi</h1>
+            </a>
+            <div class="navbar-nav mr-auto py-0">
+                <a href="#gallery" class="nav-item nav-link">Képeink</a>
+                <a href="#infos" class="nav-item nav-link">Tudni érdemes</a>
+                <a href="#contact" class="nav-item nav-link">Elérhetőségek</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Ale & Tomi</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0"
+                                    style="letter-spacing: 2px;">Üdvözlünk az esküvői honlapunkon! Köszönjük, hogy
+                                    velünk ünnepeltek!</h3>
+                            </div>
+                            <div>
+                                <h2 class="text-uppercase font-weight-bold text-white m-0 pt-5" id="timer"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Story Start -->
+    <div class="container-fluid py-5" id="story">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Történetünk</h6>
+                <h1 class="font-secondary display-4">A mi történetünk</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Első találkozás</h4>
+                            <p class="text-uppercase mb-2">2016.09.20.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Első csók és randi</h4>
+                            <p class="mb-2">2017.03.15. és 17.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Első közös otthon</h4>
+                            <p class="text-uppercase mb-2">2019.07.01.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Eljegyzés</h4>
+                            <p class="text-uppercase mb-2">2022.01.08.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Story End -->
+
+    <!-- Places Start -->
+    <div class="container-fluid py-5" id="places">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Helyszínek</h6>
+                <h1 class="font-secondary display-4">Szertartások/Helyszínek</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-center text-md-right">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                        <h3 class="mb-3">Egyházi szertartás</h3>
+                        <p><span class="font-weight-bold left">Péteri Evangélikus templom, 2209 Péteri, Bohus Dániel
+                                tér</span> <br><br>
+                            Az egyházi ceremóniára meghívottaknak ezt követően rövid álló fogadás a templom mellett vagy
+                            a lelkészi parókián (időjárás függvényében).
+                            Parkolási lehetőség van a templom melletti kis téren és a környező utcákban.
+                        </p>
+                        <div class="position-relative"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
+                </div>
+                <div class="col-md-6 p-0 text-center text-md-left">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <h3 class="mb-3">Polgári szertartás</h3>
+                        <p><span class="font-weight-bold left">Sipito Pihenőpark, 2721 Pilis, Vogyiszka dűlő 4.</span>
+                            <br><br>
+                            Parkolási lehetőség a park előtti parkolóban
+                        </p>
+                        <div class="position-relative"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-left">
+                    <h3 class="font-weight-bold text-muted mb-3 pb-3">A szállásról</h3>
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        <ul>
+                            <li class="mb-3">A polgári szertartás helyszínén lesz lehetőség szállást foglalni
+                                (<a href="https://sipito.hu/" target="_blank">Sipito pihenőpark</a>)</li>
+                            <li class="mb-3">Ára: 8000/Ft fő/éj</li>
+                            <li class="mb-3">Szállás igényeteket kérünk legkésőbb <b>augusztus 15.</b>-ig jelezni a
+                                meghívón
+                                leírt vagy a kontaktok menüpont alatt látott elérhetőségek egyikén.</li>
+                            <li class="mb-3">Elfoglalás leghamarabb 2022.10.01 14:00-tól (ezt kérjük számoljátok bele az
+                                érkezési időbe).
+                            </li>
+                            <li class="mb-3">Elhagyás 2022.10.02 11:00-ig. </li>
+                            <li class="mb-3">Ágynemű biztosítva lesz. </li>
+                            <li class="mb-3">Kulcs átvételről és fizetésről részletes információk később ugyanitt!</li>
+                            <li class="mb-3">Azok számára, akiknek nincs szállás, (akik a közelben laknak ->Tomi
+                                vendégei) éjszakai sofőrszolgálat biztosítva lesz! </li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Places End -->
+
+
+    <!-- Gallery Start -->
+    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
+        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Képek</h6>
+            <h1 class="font-secondary display-4 text-white">Közös kalandjainkról kis emlékek</h1>
+            <i class="far fa-heart text-white"></i>
+        </div>
+        <div class="owl-carousel gallery-carousel">
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                <a href="img/gallery-1.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                <a href="img/gallery-2.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid" src="img/gallery-3.jpg" alt="">
+                <a href="img/gallery-3.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                <a href="img/gallery-4.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
+                <a href="img/gallery-5.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                <a href="img/gallery-6.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
+                <a href="img/gallery-7.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Infos Start -->
+    <div class="container-fluid py-5" id="infos">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Tudnivalók</h6>
+                <h1 class="font-secondary display-4">Amit tudni kell/érdemes...</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-left">
+                    <h3 class="font-weight-bold text-muted mb-3 pb-3">... az előkészületekről</h3>
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        <ul>
+                            <li class="mb-5">Kérünk Titeket a lagzira süteményekkel és rágcsálnivalóval ne készüljetek,
+                                mi
+                                gondoskodunk
+                                minden finomságról!</li>
+                            <li>Érkezzetek jókedvvel és kipihenten, hogy bírjátok a mulatozást hajnalig!</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-left">
+                    <h3 class="font-weight-bold text-muted mb-3 pb-3">... a nászajándékról</h3>
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        <ul>
+                            <li class="mb-5">Ahogy a meghívóban írtuk nem szeretnénk materiális ajándékot, a
+                                háztartásunk mindent tartalmaz. Ha szeretnél megajándákozni minket azt némi anyagi
+                                támogatást formájában nagyon szívesen vesszük.</li>
+                            <li>Az ajándékot illetve a menyasszonytáncra szánt összeget a szertartás után lesz lehetőség
+                                ünnepélyes formában átadni nekünk, ezért érdemes már a ceremóniára magatokkal hozni.
+                                A menyasszonytáncra a belépő pedig mindenkinek 1 db sorsjegy lesz, pénzzel ide kérlek ne
+                                készüljetek.
+                            </li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-left">
+                    <h3 class="font-weight-bold text-muted mb-3 pb-3">... a közös fotózkodásról</h3>
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        <ul>
+                            <li>A közös fotózkodás a gördülékenység érdekében meghatározott sorrendben fog történni. A
+                                vőfély a helyszínen mindent koordinálni fog, de aki kíváncsi előre a sorrendre, ezen a
+                                felületen elolvashatja szeptember utolsó hetétől.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-left">
+                    <h3 class="font-weight-bold text-muted mb-3 pb-3">... a dress code-ról</h3>
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        <ul>
+                            <li>Kérjük érkezettek az alkalomhoz illő elegáns öltözetben, éjfél után aki szeretne
+                                nyugodtan átöltözhet kényelmesebb, lazább de továbbra is az alkalomhoz illő ruhába.
+                            </li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-left">
+                    <h3 class="font-weight-bold text-muted mb-3 pb-3">... a fotókról</h3>
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        <ul>
+                            <li class="mb-5">Kérünk Titeket, hogy a szertartások és egyéb meghitt programok alatt ne
+                                fényképezzetek, profi fotósunk minden pillanatot meg fog örökíteni. Az eseményen készült
+                                fotókat utómunka után ezen a felületen fogjátok tudni megnézni</li>
+                            <li>Megkérünk továbbá mindenkit, hogy addig ne tegyen közzé közösségi média felületen az
+                                eseményen készült fotókat, amíg mi nem tesszük ezt. Szeretnénk mi lenni az első
+                                hírmondói a nagy eseménynek!</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Infos End -->
+
+    <div class="container-fluid py-5" id="contact">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Elérhetőségek</h6>
+                <h1 class="font-secondary display-4">Ha extra kérdésetek lenne</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-left">
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        A számunkra is folyamatosan bővülő információk miatt az oldalt gyakran fogjuk frissíteni, ezért
+                        ha nem kaptál választ valamelyik kérdésedre, érdemes később visszatérni!
+                        Ha egyedi kérdésed van, vagy szeptember utolsó hetéig nem találod a választ itt sem, keress
+                        minket az alábbi elérhetőségek egyikén!
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-md-6 text-center">
+                    <h3 class="font-weight-bold mb-3 pb-3">Ale</h3>
+                    <h4>
+                        <div class="mb-3"><i class="fa-solid fa-envelope"></i> keleale96@gmail.com </div>
+                        <i class="fa-solid fa-mobile"></i> +36306163472
+                    </h4>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h3 class="font-weight-bold mb-3 pb-3">Tomi</h3>
+                    <h4>
+                        <div class="mb-3"><i class="fa-solid fa-envelope"></i> hrutka.tamas@gmail.com </div>
+                        <i class="fa-solid fa-mobile"></i> +36304066867
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 text-left">
+                    <h4 class="font-weight-normal text-muted mb-3 pb-3">
+                        Ha a olyan jellegű kérdésed van, vagy minket nem érsz el, akár hívhatod őket is
+                    </h4>
+                    <h5 class="font-weight-normal mb-4">
+                        Kele László: +36309370883 <br>
+                        Keléné Király Ildikó: +36306163472
+                    </h5>
+                    <h5 class="font-weight-normal mb-4">
+                        Hrutka Tibor: +36309601476 <br>
+                        Hrutkáné Molnár Monika: +36309865655
+                    </h5>
+                    <h5 class="font-weight-normal mb-4">
+                        Kele Viktória: +36307609508 <br>
+                        Hrutka Ákos: +36305157790
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" id="footer" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">Várunk szeretettel!</h1>
+                <i class="far fa-heart text-white"></i>
+            </div>
+            <p class="m-0">&copy; <a class="text-primary" href="#">aletomiegybekel</a>. Designed by <a
+                    class="text-primary" href="https://htmlcodex.com">HTML Codex</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i
+            class="fa fa-angle-double-up"></i></a>
+
 
 
     <!-- JavaScript Libraries -->
