@@ -43,7 +43,6 @@
         {
             $videoSrc = $(this).data("src");
         });
-        console.log($videoSrc);
 
         $('#videoModal').on('shown.bs.modal', function (e)
         {
@@ -133,27 +132,5 @@
     });
 
 })(jQuery);
-
-function updateTimer()
-{
-    future = Date.parse("Oct 1, 2022 00:00:00");
-    now = new Date();
-    diff = future - now;
-
-    days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    hours = Math.floor(diff / (1000 * 60 * 60));
-    mins = Math.floor(diff / (1000 * 60));
-    secs = Math.floor(diff / 1000);
-
-    d = days;
-    h = hours - days * 24;
-    m = mins - hours * 60;
-    s = secs - mins * 60;
-
-    document.getElementById("timer")
-        .innerHTML =
-        '<div>' + d + '<span class="pr-5"> nap</span>' + h + '<span class="pr-5"> óra</span>' + m + '<span class="pr-5"> perc</span>' + s + '<span> másodperc</span></div>';
-}
-setInterval('updateTimer()', 1000);
 
 
